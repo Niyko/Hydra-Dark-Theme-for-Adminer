@@ -1,0 +1,1 @@
+# Hydra-Dark-Theme-for-Adminer
