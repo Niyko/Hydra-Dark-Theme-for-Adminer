@@ -1,1 +1,1 @@
-# Hydra-Dark-Theme-for-Adminer
+![Hydra Dark Theme for Adminer logo](https://i.imgur.com/JpUX5NI.png)
