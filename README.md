@@ -4,7 +4,7 @@ An Adminer dark mode material design theme inspired by the Adminer material desi
 
 ### :zap: Usage
 * Get a copy of [Adminer](https://www.adminer.org/)
-* Download the adminer.css from here
+* Download the `adminer.css` from [here](https://raw.githubusercontent.com/Niyko/Hydra-Dark-Theme-for-Adminer/master/adminer.css)
 * Put them both in the same web folder
 
 ### :mag: Preview
