@@ -17,16 +17,16 @@ body {
 	overflow: hidden;
 	height: 100vh;
 	background: #FAFAFA;
-	scrollbar-width: none;
+	/*scrollbar-width: none;*/
 	font-family: 'Montserrat', sans-serif;
 	text-rendering: optimizeLegibility !important
-	-ms-overflow-style: none;
-    scrollbar-width: none;
+	/*-ms-overflow-style: none;
+    scrollbar-width: none;*/
 }
 * {
 	outline-color: #7962f2
-	-ms-overflow-style: none;
-	scrollbar-width: none;
+	/*-ms-overflow-style: none;
+	scrollbar-width: none;*/
 }
 ::selection {
 	background: #4ca0ea;
@@ -36,7 +36,7 @@ body {
 	background: #4ca0ea;
 	color: #fff
 }
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
 	width: 9px;
 	height: 12px;
 	background-color: #CCC
@@ -51,7 +51,7 @@ body {
 	background-color: #263238;
 	width: 8px;
 	height: 8px
-}
+}*/
 #lang {
 	position: fixed;
 	top: auto;
@@ -864,11 +864,14 @@ input[type="button"][disabled], input[type="submit"][disabled] {
     color: rgba(255,255,255,0.3);
 }
 ::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
+	width: 10px;
+	border-radius: 1000px;
+    background: #1E1C27;
 }
 ::-webkit-scrollbar-thumb {
-    background: transparent;
+    background: #76757B;
+    width: 10px;
+    border-radius: 1000px;
 }
 table{
 	background: #2f2b3f;
@@ -980,4 +983,7 @@ a[href="#import"]{
 }
 a[href="#import"]:hover{
 	color: #ffffff;
+}
+#menu h1:first-of-type{
+	margin-top: -9px;
 }
