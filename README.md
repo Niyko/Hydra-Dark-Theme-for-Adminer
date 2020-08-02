@@ -19,4 +19,4 @@ Hydra, Material Design Dark Theme for Adminer is a clone made from [Adminer-Mate
 ---
 
 <!-- pls don't use this in your repo -->
-![visitors count](https://server.niyko.com/github-visitors-count?id=hydraadminertheme)
+![visitors count](https://server.niyko.com/github-visitors-count?id=hydratheme)
