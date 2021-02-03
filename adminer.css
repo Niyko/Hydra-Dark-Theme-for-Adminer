@@ -1015,3 +1015,6 @@ a[href="#import"]:hover{
 #schema{
 	position: absolute;
 }
+#schema-link{
+	float: right;
+}
