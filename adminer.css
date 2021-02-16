@@ -18,16 +18,12 @@ body {
 	height: 100vh;
 	width: auto;
 	background: #FAFAFA;
-	/*scrollbar-width: none;*/
 	font-family: 'Montserrat', sans-serif;
-	text-rendering: optimizeLegibility !important
-	/*-ms-overflow-style: none;
-    scrollbar-width: none;*/
+	text-rendering: optimizeLegibility !important;
+	overflow: auto;
 }
 * {
-	outline-color: #7962f2
-	/*-ms-overflow-style: none;
-	scrollbar-width: none;*/
+	outline-color: #7962f2;
 }
 ::selection {
 	background: #4ca0ea;
@@ -37,22 +33,6 @@ body {
 	background: #4ca0ea;
 	color: #fff
 }
-/*::-webkit-scrollbar {
-	width: 9px;
-	height: 12px;
-	background-color: #CCC
-}
-::-webkit-scrollbar-corner {
-	background-color: #CCC
-}
-::-webkit-scrollbar-thumb {
-	background-color: #263238
-}
-::-webkit-scrollbar-corner {
-	background-color: #263238;
-	width: 8px;
-	height: 8px
-}*/
 #lang {
 	position: fixed;
 	top: auto;
@@ -1031,4 +1011,10 @@ a[href="#import"]:hover{
 	position: relative;
 	top: -15px;
 	border-radius: 5px;
+}
+#schema{
+	position: absolute;
+}
+#schema-link{
+	float: right;
 }
