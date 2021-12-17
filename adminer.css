@@ -60,7 +60,7 @@ body {
 }
 #menu h1 {
 	position: fixed;
-	right: 54px;
+	right: 60px;
 	border-bottom: none;
 	font-size: 12px;
 	background: transparent;
@@ -200,7 +200,7 @@ a #h1 {
 	z-index: 2;
 	padding-top: 10px;
 	padding-left: 20px;
-	background: #263238;
+	background: #2f2b3f;
 	color: #263238
 }
 #breadcrumb a {
@@ -381,7 +381,7 @@ table {
 	margin-top: 20px;
 	min-width: 800px;
 	border-collapse: collapse;
-	box-shadow: 0 1px 4px rgba(88, 88, 88, 0.01), 0 2px 3px rgba(88, 88, 88, 0.26);
+	box-shadow: none;
 	white-space: nowrap;
 	font-size: 13px;
 	order: 4
@@ -679,10 +679,20 @@ thead td::after, thead th::after {
 thead td::before, thead th::before {
     background: #221f2e;
 }
-form table {
+#content table {
+	border-radius: 7px;
+}
+#content table thead td:first-child, #content table thead th:first-child {
 	border-top-left-radius: 7px;
-	overflow: hidden;
+}
+#content table thead td:last-child, #content table thead th:last-child {
 	border-top-right-radius: 7px;
+}
+#content table tbody tr:last-child td:first-child, #content table tbody tr:last-child th:first-child {
+	border-bottom-left-radius: 7px;
+}
+#content table tbody tr:last-child td:last-child, #content table tbody tr:last-child th:last-child {
+	border-bottom-right-radius: 7px;
 }
 #content .links a {
     background: #7962f2;
