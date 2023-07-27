@@ -858,7 +858,7 @@ a:link:hover, a:visited:hover {
     color: #fff;
 }
 input[type="button"][disabled], input[type="submit"][disabled] {
-    background: rgba(255,255,255,0.1); !important;
+    background: rgba(255,255,255,0.1) !important;
     color: rgba(255,255,255,0.3);
 }
 ::-webkit-scrollbar {
