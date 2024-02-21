@@ -1194,12 +1194,16 @@ a[href="#import"]:hover {
 #schema .table a {
     display: block;
     margin: -6px -6px 6px;
-    padding: 12px;
+    padding: 7px;
     background: #7962f2;
 	color: #fff;
 	min-width: 120px;
 	margin-bottom: 3px;
     border-radius: 5px 5px 0px 0px;
+}
+
+#schema .references {
+    margin-top: 18px;
 }
 
 .char {
