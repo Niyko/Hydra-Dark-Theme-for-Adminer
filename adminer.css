@@ -1022,31 +1022,41 @@ a[href="#import"]:hover{
 	top: -15px;
 	border-radius: 5px;
 }
-#schema{
-	position: absolute;
+#schema {
+    position: absolute;
 }
-#schema-link{
-	float: right;
+#schema-link {
+    float: right;
 }
-#schema .table {
-	padding: 0px 0px 10px 0px;
-	background: #2f2b3f;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.11);
-	overflow: hidden;
-}
-#schema .table a {
-	display: inline-block;
-	background: #7962f2;
-	color: #fff;
-	padding: 7px;
-	min-width: 141px;
-	width: 100%;
-	margin-bottom: 3px;
+#schema .table br {
+    display: none;
 }
 #schema .table span {
-	margin-left: 10px;
+    display: block;
+    padding: 0px 6px;
+}
+#schema .table span {
+    margin-left: 10px;
+}
+#schema .table {
+    padding: 6px;
+    background: #2f2b3f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.11);
+}
+#schema .table a {
+    display: block;
+    margin: -6px -6px 6px;
+    padding: 7px;
+    background: #7962f2;
+    color: #fff;
+    min-width: 120px;
+    margin-bottom: 3px;
+    border-radius: 5px 5px 0px 0px;
+}
+#schema .table .references {
+    margin-top: 18px;
 }
 .char {
     color: #00e676;
