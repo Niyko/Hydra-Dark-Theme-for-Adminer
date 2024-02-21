@@ -1055,7 +1055,7 @@ a[href="#import"]:hover{
     margin-bottom: 3px;
     border-radius: 5px 5px 0px 0px;
 }
-#schema .references {
+#schema .table .references {
     margin-top: 18px;
 }
 .char {
