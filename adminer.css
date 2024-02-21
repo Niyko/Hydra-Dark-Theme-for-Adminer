@@ -6,7 +6,10 @@ Material Design Dark Theme for Adminer
 Made with ♥ from Niyko
 https://github.com/Niyko/Hydra-Dark-Theme-for-Adminer
 */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); @import url('https://fonts.googleapis.com/icon?family=Material+Icons'); html {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+html {
 	background-color: #221f2e;
 }
 body {
@@ -244,15 +247,21 @@ select {
 	background: #fff;
 	cursor: pointer
 }
-a, a:link {
+a,
+a:link {
 	color: #7962f2;
 	transition: all .2s
 }
-a:hover, a:link:hover {
+a:hover,
+a:link:hover {
 	color: #4a39a4;
 	text-decoration: none
 }
-input:not([type]), input[type=number], input[type=password], input[type=search], input[type=text] {
+input:not([type]),
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=text] {
 	padding: 8px;
 	border: 1px solid rgba(0, 0, 0, 0.12);
 	border-radius: 2px;
@@ -278,16 +287,23 @@ input[type=submit] {
 input[type=submit]:hover {
 	background: #4a39a4
 }
-input[type=button][disabled], input[type=submit][disabled] {
+input[type=button][disabled],
+input[type=submit][disabled] {
 	background: #AFB3B5;
 	color: #504c4a;
 	cursor: no-drop
 }
-div input[name=delete], div input[name=drop], div input[name=truncate], input[value=Kill] {
+div input[name=delete],
+div input[name=drop],
+div input[name=truncate],
+input[value=Kill] {
 	background: repeating-linear-gradient(-55deg, #7962f2, #7962f2 5px, #4ca0ea 5px, #4ca0ea 10px);
 	transition: all .2s
 }
-div input[name=delete]:hover, div input[name=drop]:hover, div input[name=truncate]:hover, input[value=Kill]:hover {
+div input[name=delete]:hover,
+div input[name=drop]:hover,
+div input[name=truncate]:hover,
+input[value=Kill]:hover {
 	background: repeating-linear-gradient(-55deg, #4a39a4, #4a39a4 5px, #7962f2 5px, #7962f2 10px)
 }
 input[type=checkbox] {
@@ -373,13 +389,15 @@ table {
 form table {
 	width: 100%
 }
-thead td, thead th {
+thead td,
+thead th {
 	background: #ececec;
 	position: sticky;
 	top: 0;
 	z-index: 2
 }
-thead td:before, thead th:before {
+thead td:before,
+thead th:before {
 	content: '';
 	position: absolute;
 	background: #fafafa;
@@ -388,7 +406,8 @@ thead td:before, thead th:before {
 	width: 120%;
 	height: 20px
 }
-thead td:after, thead th:after {
+thead td:after,
+thead th:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -417,17 +436,23 @@ td {
 	background: #fff;
 	color: #000
 }
-.odd td, .odd th {
+.odd td,
+.odd th {
 	background: #fafafa
 }
-td a, td a:visited, th a, th a:visited {
+td a,
+td a:visited,
+th a,
+th a:visited {
 	color: #7962f2;
 	font-weight: 700
 }
-.js .checkable .checked td, .js .checkable .checked th {
+.js .checkable .checked td,
+.js .checkable .checked th {
 	background: #e0e0e0
 }
-#noindex, sup {
+#noindex,
+sup {
 	display: none
 }
 .pages {
@@ -482,7 +507,9 @@ td a, td a:visited, th a, th a:visited {
 	order: 1;
 	margin: 38px 0
 }
-#content .links, #content h3, #content h3+.error {
+#content .links,
+#content h3,
+#content h3+.error {
 	margin: 15px 0 0;
 	order: 4
 }
@@ -548,7 +575,12 @@ td a, td a:visited, th a, th a:visited {
 #content fieldset:nth-of-type(2).jsonly legend {
 	display: none
 }
-#content fieldset:first-child #fieldset-import, #content fieldset:nth-of-type(1), #content fieldset:nth-of-type(2):not(.jsonly), #content fieldset:nth-of-type(3), #content fieldset:nth-of-type(4), #content fieldset:nth-of-type(5) {
+#content fieldset:first-child #fieldset-import,
+#content fieldset:nth-of-type(1),
+#content fieldset:nth-of-type(2):not(.jsonly),
+#content fieldset:nth-of-type(3),
+#content fieldset:nth-of-type(4),
+#content fieldset:nth-of-type(5) {
 	margin-bottom: 10px;
 	padding-bottom: 11px;
 	min-height: 57px;
@@ -587,12 +619,14 @@ td a, td a:visited, th a, th a:visited {
 	background: #fff;
 	padding: 0 7px
 }
-#content input[name=copy], #content input[name=move] {
+#content input[name=copy],
+#content input[name=move] {
 	float: right;
 	margin-right: -20px;
 	margin-left: 25px
 }
-#content input[name=copy], #content input[name=move] {
+#content input[name=copy],
+#content input[name=move] {
 	float: right;
 	margin-right: -20px;
 	margin-left: 25px
@@ -610,10 +644,10 @@ td a, td a:visited, th a, th a:visited {
 	background: #2f2b3f;
 }
 #logout {
-	background: #7962f2;
+    background: #7962f2;
 }
 #logout:hover {
-	background: #7962f2;
+    background: #7962f2;
 }
 td {
 	background: #2f2b3f;
@@ -623,27 +657,27 @@ input[type="checkbox"] {
 	filter: invert();
 }
 .odd td, .odd th {
-	background: #2f2b3f;
+    background: #2f2b3f;
 }
 tbody tr:hover td, tbody tr:hover th {
-	background: #2f2b3f;
+    background: #2f2b3f;
 }
 th {
 	background: #2f2b3f;
 	border: 1px solid rgba(0,0,0,0.1);
 }
 thead td, thead th {
-	background: #4c4665;
-	color: #ffffff;
+    background: #4c4665;
+    color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 13px;
 }
 thead td::after, thead th::after {
-	border-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 thead td::before, thead th::before {
-	background: #221f2e;
+    background: #221f2e;
 }
 #content table {
 	border-radius: 7px;
@@ -661,8 +695,8 @@ thead td::before, thead th::before {
 	border-bottom-right-radius: 7px;
 }
 #content .links a {
-	background: #7962f2;
-	color: #ffffff;
+    background: #7962f2;
+    color: #ffffff;
 }
 #menu {
 	background-color: #221f2e;
@@ -690,7 +724,7 @@ thead td::before, thead th::before {
 	padding-bottom: 158px;
 	background-size: 100%;
 	background-position: bottom;
-	border: none;
+    border: none;
 }
 #menu .links a {
 	background: rgba(255,255,255,0.2);
@@ -706,7 +740,7 @@ thead td::before, thead th::before {
 	color: #fff;
 }
 #content h2 {
-	color: #fff;
+    color: #fff;
 }
 #breadcrumb a {
 	color: #7962f2
@@ -724,30 +758,30 @@ thead td::before, thead th::before {
 	font-weight: 700;
 	color: rgba(0,0,0,0.6);
 }
-#dbs {
+#dbs{
 	color: transparent;
 }
-#dbs span {
+#dbs span{
 	font-size: 0px;
 }
 #dbs span::before {
-	font-size: 16px;
-	position: relative;
+    font-size: 16px;
+    position: relative;
 	top: 1px;
 	color: #000;
 	content: "dns";
 	font-family: "Material Icons";
 }
 #menu select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	text-indent: 1px;
-	text-overflow: '';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
 	width: 78%;
 	position: relative;
 	top: -1px;
 }
-#dbs::after {
+#dbs::after{
 	content: "arrow_forward_ios";
 	font-family: "Material Icons";
 	font-size: 15px;
@@ -758,14 +792,14 @@ thead td::before, thead th::before {
 	left: 8px;
 	opacity: 0.6;
 }
-#tables .structure {
+#tables .structure{
 	font-size: 14px;
 	position: relative;
 	top: -8px;
 	width: 67%;
 }
 #tables .structure::before {
-	content: "drag_indicator";
+    content: "drag_indicator";
 	font-family: "Material Icons";
 	font-size: 18px;
 	color: #fff;
@@ -776,68 +810,68 @@ thead td::before, thead th::before {
 	opacity: 0.6;
 }
 #menu p, #tables {
-	border-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 #tables a:hover {
-	background: transparent;
-	color: #7962f2;
+    background: transparent;
+    color: #7962f2;
 }
-input[type="search"] {
+input[type="search"]{
 	background: rgba(255,255,255,0.2);
 	border-radius: 1000px;
 	color: #fff;
-	padding-left: 10px;
+	padding-left:10px;
 }
 input[type="submit"] {
-	background: #7962f2;
-	color: #ffffff;
-	text-transform: uppercase;
+    background: #7962f2;
+    color: #ffffff;
+    text-transform: uppercase;
 	font-weight: bold;
 }
 a, a:link {
-	color: #7962f2;
-	transition: all .2s;
+    color: #7962f2;
+    transition: all .2s;
 }
-td {
+td{
 	color: #ffffff;
 }
 #content fieldset:first-child #fieldset-import, #content fieldset:nth-of-type(1), #content fieldset:nth-of-type(2):not(.jsonly), #content fieldset:nth-of-type(3), #content fieldset:nth-of-type(4), #content fieldset:nth-of-type(5) {
-	background-color: #221f2e;
+    background-color: #221f2e;
 }
 div input[name="delete"], div input[name="drop"], div input[name="truncate"], input[value="Kill"] {
 	background: repeating-linear-gradient(-55deg, #7962f2, #7962f2 5px, #4a39a4 5px, #4a39a4 10px);
 }
 div input[name="delete"]:hover, div input[name="drop"]:hover, div input[name="truncate"]:hover, input[value="Kill"]:hover {
-	background: repeating-linear-gradient(-55deg, #4a39a4, #4a39a4 5px, #7962f2 5px, #7962f2 10px);
+    background: repeating-linear-gradient(-55deg, #4a39a4, #4a39a4 5px, #7962f2 5px, #7962f2 10px);
 }
 .js .checkable .checked td, .js .checkable .checked th {
-	background: #221f2e;
+    background: #221f2e;
 }
 td a, td a:visited, th a, th a:visited {
-	color: #7962f2;
+    color: #7962f2;
 }
 a:link:hover, a:visited:hover {
-	color: #4a39a4;
+    color: #4a39a4;
 }
 #tables .select:hover {
-	background: #7962f2;
-	color: #fff;
+    background: #7962f2;
+    color: #fff;
 }
 input[type="button"][disabled], input[type="submit"][disabled] {
-	background: rgba(255,255,255,0.1);
-	!important; color: rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1); !important;
+    color: rgba(255,255,255,0.3);
 }
 ::-webkit-scrollbar {
 	width: 10px;
 	border-radius: 1000px;
-	background: #1E1C27;
+    background: #1E1C27;
 }
 ::-webkit-scrollbar-thumb {
-	background: #76757B;
-	width: 10px;
-	border-radius: 1000px;
+    background: #76757B;
+    width: 10px;
+    border-radius: 1000px;
 }
-table {
+table{
 	background: #2f2b3f;
 }
 #content select {
@@ -858,32 +892,32 @@ textarea {
 }
 #menu #logins a {
 	background: rgba(255,255,255,0.1);
-	color: #ffffff;
+    color: #ffffff;
 }
 #menu #logins::before {
 	color: #ffffff;
 }
 #content .links a:hover {
-	background: #4a39a4;
-	color: #fff;
+    background: #4a39a4;
+    color: #fff;
 }
 #menu .links a:hover {
-	background: #ffffff;
-	color: #7962f2;
+    background: #ffffff;
+    color: #7962f2;
 }
 #content .links .active {
-	background: rgba(255,255,255,0.2);
-	color: #fff;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
 }
 code {
 	filter: sepia() invert();
 	color: #000000;
 }
 #content legend a {
-	color: #7962f2;
+    color: #7962f2;
 }
 #content legend a:hover {
-	color: #7962f2;
+    color: #7962f2;
 }
 .js .column {
 	background: #221f2e;
@@ -899,13 +933,13 @@ input[type="radio"] {
 	filter: invert();
 }
 .icon:hover {
-	background: #000;
+    background: #000;
 }
 select option {
-	background: #221f2e;
+    background: #221f2e;
 }
 select[name="db"] option {
-	background: #ffffff;
+    background: #ffffff;
 }
 .message {
 	padding: 13px;
@@ -915,7 +949,7 @@ select[name="db"] option {
 	text-transform: capitalize;
 	border-radius: 5px;
 }
-.message a {
+.message a{
 	color: #ffffff;
 	border-bottom: 2px solid #ffffff;
 }
@@ -927,15 +961,15 @@ select[name="db"] option {
 	text-transform: capitalize;
 	border-radius: 5px;
 }
-#version {
+#version{
 	color: #7962f2;
 }
-#tables {
+#tables{
 	/* margin-bottom: 100px; */
 }
-a[href="#import"] {
+a[href="#import"]{
 	font-weight: 600;
-	padding: 11px 16px;
+    padding: 11px 16px;
 	border: none;
 	border-radius: 2px;
 	background: #7962f2;
@@ -946,13 +980,13 @@ a[href="#import"] {
 	cursor: pointer;
 	transition: all .2s;
 }
-a[href="#import"]:hover {
+a[href="#import"]:hover{
 	color: #ffffff;
 }
-#menu h1:first-of-type {
+#menu h1:first-of-type{
 	margin-top: -9px;
 }
-#lang {
+#lang{
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 	background: #7962f2;
 	color: #ffffff;
@@ -967,10 +1001,10 @@ a[href="#import"]:hover {
 	font-size: 0px;
 	transition-duration: 0.3s;
 }
-#lang:hover {
+#lang:hover{
 	right: 0px;
 }
-#lang::before {
+#lang::before{
 	content: "";
 	background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyLjQxOCA1MTIuNDE4IiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMi40MTggNTEyLjQxOCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNDM3LjMzNSA3NS4wODJjLTEwMC4xLTEwMC4xMDItMjYyLjEzNi0xMDAuMTE4LTM2Mi4yNTIgMC0xMDAuMTAzIDEwMC4xMDItMTAwLjExOCAyNjIuMTM2IDAgMzYyLjI1MyAxMDAuMSAxMDAuMTAyIDI2Mi4xMzYgMTAwLjExNyAzNjIuMjUyIDAgMTAwLjEwMy0xMDAuMTAyIDEwMC4xMTctMjYyLjEzNiAwLTM2Mi4yNTN6bS0xMC43MDYgMzI1LjczOWMtMTEuOTY4LTEwLjcwMi0yNC43Ny0yMC4xNzMtMzguMjY0LTI4LjMzNSA4LjkxOS0zMC44MDkgMTQuMjAzLTY0LjcxMiAxNS40NTItOTkuOTU0aDc1LjMwOWMtMy40MDUgNDcuNTAzLTIxLjY1NyA5Mi4wNjQtNTIuNDk3IDEyOC4yODl6bS0zOTMuMzM4LTEyOC4yODloNzUuMzA5YzEuMjQ5IDM1LjI0MiA2LjUzMyA2OS4xNDUgMTUuNDUyIDk5Ljk1NC0xMy40OTQgOC4xNjItMjYuMjk2IDE3LjYzMy0zOC4yNjQgMjguMzM1LTMwLjg0LTM2LjIyNS00OS4wOTEtODAuNzg2LTUyLjQ5Ny0xMjguMjg5em01Mi40OTgtMTYwLjkzNmMxMS45NjggMTAuNzAyIDI0Ljc3IDIwLjE3MyAzOC4yNjQgMjguMzM1LTguOTE5IDMwLjgwOS0xNC4yMDMgNjQuNzEyLTE1LjQ1MiA5OS45NTRoLTc1LjMxYzMuNDA2LTQ3LjUwMiAyMS42NTctOTIuMDYzIDUyLjQ5OC0xMjguMjg5em0xNTQuMDk3IDMxLjcwOWMtMjYuNjIyLTEuOTA0LTUyLjI5MS04LjQ2MS03Ni4wODgtMTkuMjc4IDEzLjg0LTM1LjYzOSAzOS4zNTQtNzguMzg0IDc2LjA4OC04OC45Nzd6bTAgMzIuNzA4djYzLjg3M2gtOTguNjI1YzEuMTMtMjkuODEyIDUuMzU0LTU4LjQzOSAxMi4zNzktODQuNjMyIDI3LjA0MyAxMS44MjIgNTYuMTI3IDE4Ljg4MiA4Ni4yNDYgMjAuNzU5em0wIDk2LjUxOXY2My44NzNjLTMwLjExOSAxLjg3Ny01OS4yMDMgOC45MzctODYuMjQ2IDIwLjc1OS03LjAyNS0yNi4xOTMtMTEuMjQ5LTU0LjgyLTEyLjM3OS04NC42MzJ6bTAgOTYuNTgxdjEwOC4yNTRjLTM2LjczMi0xMC41OTMtNjIuMjQ2LTUzLjMzMy03Ni4wODgtODguOTc2IDIzLjc5Ny0xMC44MTcgNDkuNDY2LTE3LjM3NCA3Ni4wODgtMTkuMjc4em0zMi42NDYgMGMyNi42MjIgMS45MDQgNTIuMjkxIDguNDYxIDc2LjA4OCAxOS4yNzgtMTMuODQxIDM1LjY0LTM5LjM1NCA3OC4zODMtNzYuMDg4IDg4Ljk3NnptMC0zMi43MDh2LTYzLjg3M2g5OC42MjVjLTEuMTMgMjkuODEyLTUuMzU0IDU4LjQzOS0xMi4zNzkgODQuNjMyLTI3LjA0My0xMS44MjItNTYuMTI3LTE4Ljg4Mi04Ni4yNDYtMjAuNzU5em0wLTk2LjUxOXYtNjMuODczYzMwLjExOS0xLjg3NyA1OS4yMDMtOC45MzcgODYuMjQ2LTIwLjc1OSA3LjAyNSAyNi4xOTMgMTEuMjQ5IDU0LjgyIDEyLjM3OSA4NC42MzJ6bTAtOTYuNTgxdi0xMDguMjU0YzM2LjczNCAxMC41OTMgNjIuMjQ4IDUzLjMzOCA3Ni4wODggODguOTc3LTIzLjc5NyAxMC44MTYtNDkuNDY2IDE3LjM3My03Ni4wODggMTkuMjc3em03My4zMi05MS45NTdjMjAuODk1IDkuMTUgNDAuMzg5IDIxLjU1NyA1Ny44NjQgMzYuOTUxLTguMzE4IDcuMzM0LTE3LjA5NSAxMy45ODQtMjYuMjYgMTkuOTMxLTguMTM5LTIwLjE1Mi0xOC41MzYtMzkuNzM2LTMxLjYwNC01Ni44ODJ6bS0yMTAuODkxIDU2Ljg4MmMtOS4xNjUtNS45NDctMTcuOTQxLTEyLjU5Ny0yNi4yNi0xOS45MzEgMTcuNDc1LTE1LjM5NCAzNi45NjktMjcuODAxIDU3Ljg2NC0zNi45NTEtMTMuMDY4IDE3LjE0OC0yMy40NjUgMzYuNzMyLTMxLjYwNCA1Ni44ODJ6bS4wMDEgMjk1Ljk1OGM4LjEzOCAyMC4xNTEgMTguNTM3IDM5LjczNiAzMS42MDQgNTYuODgyLTIwLjg5NS05LjE1LTQwLjM4OS0yMS41NTctNTcuODY0LTM2Ljk1MSA4LjMxOC03LjMzNCAxNy4wOTUtMTMuOTg0IDI2LjI2LTE5LjkzMXptMjQyLjQ5NCAwYzkuMTY1IDUuOTQ3IDE3Ljk0MiAxMi41OTcgMjYuMjYgMTkuOTMtMTcuNDc1IDE1LjM5NC0zNi45NjkgMjcuODAxLTU3Ljg2NCAzNi45NTEgMTMuMDY3LTE3LjE0NCAyMy40NjUtMzYuNzI5IDMxLjYwNC01Ni44ODF6bTI2LjM2Mi0xNjQuMzAyYy0xLjI0OS0zNS4yNDItNi41MzMtNjkuMTQ2LTE1LjQ1Mi05OS45NTQgMTMuNDk0LTguMTYyIDI2LjI5NS0xNy42MzMgMzguMjY0LTI4LjMzNSAzMC44NCAzNi4yMjUgNDkuMDkxIDgwLjc4NiA1Mi40OTcgMTI4LjI4OXoiLz48L3N2Zz4=);
 	width: 36px;
@@ -989,51 +1023,51 @@ a[href="#import"]:hover {
 	border-radius: 5px;
 }
 #schema {
-	position: absolute;
+    position: absolute;
 }
 #schema-link {
-	float: right;
+    float: right;
 }
 #schema .table br {
-	display: none;
+    display: none;
 }
 #schema .table span {
-	display: block;
-	padding: 0px 6px;
+    display: block;
+    padding: 0px 6px;
 }
 #schema .table span {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 #schema .table {
-	padding: 6px;
-	background: #2f2b3f;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.11);
+    padding: 6px;
+    background: #2f2b3f;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.11);
 }
 #schema .table a {
-	display: block;
-	margin: -6px -6px 6px;
-	padding: 7px;
-	background: #7962f2;
-	color: #fff;
-	min-width: 120px;
-	margin-bottom: 3px;
-	border-radius: 5px 5px 0px 0px;
+    display: block;
+    margin: -6px -6px 6px;
+    padding: 7px;
+    background: #7962f2;
+    color: #fff;
+    min-width: 120px;
+    margin-bottom: 3px;
+    border-radius: 5px 5px 0px 0px;
 }
 #schema .references {
-	margin-top: 18px;
+    margin-top: 18px;
 }
 .char {
-	color: #00e676;
+    color: #00e676;
 }
 .date {
-	color: #7e57c2;
+    color: #7e57c2;
 }
-table thead a {
+table thead a{
 	color: #ffffff !important;
 }
-#form fieldset:first-child {
+#form fieldset:first-child{
 	float: unset !important;
 	padding: 7px 10px !important;
 	padding-bottom: 11px !important;
@@ -1043,6 +1077,6 @@ table thead a {
 	margin-bottom: 10px !important;
 }
 a[href="#import"] {
-	margin-top: 20px;
+    margin-top: 20px;
 	display: inline-block;
 }
