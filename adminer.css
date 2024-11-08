@@ -1070,3 +1070,18 @@ a[href="#import"] {
     margin-top: 20px;
 	display: inline-block;
 }
+.layout select[name='auth[driver]'] {
+	width: 100%;
+	max-width: 298px;
+}
+.layout input[name='auth[server]'], .layout input[name='auth[username]'], .layout input[name='auth[password]'], .layout input[name='auth[db]'] {
+	width: 100%;
+	max-width: 280px;
+}
+ul#tables{
+	padding: 9px 12px 20px 6px;
+}
+::selection {
+	background: #7962f2;
+	color: #fff;
+}
