@@ -15,8 +15,3 @@ Hydra Dark Theme for Adminer is licensed under the [MIT License](https://github.
 
 ### :sun_with_face: Thanks to
 Hydra, Material Design Dark Theme for Adminer is a clone made from [Adminer-Material-Theme](https://github.com/arcs-/Adminer-Material-Theme)
-
----
-
-<!-- pls don't use this in your repo -->
-<!-- ![visitors count](https://server.niyko.com/github-visitors-count?id=hydratheme) -->
