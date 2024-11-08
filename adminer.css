@@ -1033,20 +1033,25 @@ a[href="#import"]:hover{
 	background: #2f2b3f;
 	border: none;
 	border-radius: 5px;
+	min-width: 160px;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.11);
-	overflow: hidden;
 }
 #schema .table a {
 	display: inline-block;
 	background: #7962f2;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	color: #fff;
 	padding: 7px;
-	min-width: 141px;
-	width: 100%;
+	min-width: 160px;
+	width: 91.7%;
 	margin-bottom: 3px;
 }
 #schema .table span {
 	margin-left: 10px;
+}
+#schema .references {
+	transform: translateY(18px);
 }
 .char {
     color: #00e676;
