@@ -722,6 +722,7 @@ thead td::before, thead th::before {
 }
 #menu #dbs label {
 	display: flex;
+	padding: 0 7%;
 }
 #menu form {
 	/*background: #7962f2;*/
