@@ -76,14 +76,13 @@ body {
 #menu #logins:before {
 	content: 'Saved Logins';
 	display: block;
-	font-size: 1.2em;
-	margin: 84px 0 20px
+	font-size: 15px;
+	margin: 10px 0 7px;
 }
 #menu #logins a {
 	display: inline-block;
 	margin: 4px 0;
 	padding: 6px 12px;
-	height: 36px;
 	width: 86%;
 	border-radius: 2px;
 	color: #fff;
@@ -215,7 +214,7 @@ a #h1 {
 }
 #logout {
 	position: fixed;
-	top: 21px;
+	top: 11px;
 	right: 50px;
 	z-index: 2;
 	margin: 4px 2px;
@@ -481,14 +480,13 @@ sup {
 	width: 24px;
 	height: 24px;
 	border-radius: 2px;
-	background: #000;
-	opacity: .8;
-	-webkit-filter: contrast(125%) invert(1);
-	filter: contrast(125%) invert(1);
-	transition: all .2s
+	background-color: transparent;
+	transition: all .2s;
+	opacity: 0.8;
 }
 .icon:hover {
-	background: #e1771a
+	opacity: 0.5;
+	background-color: transparent;
 }
 .footer {
 	background: none;
@@ -760,36 +758,45 @@ thead td::before, thead th::before {
 }
 #dbs{
 	color: transparent;
+	position: relative;
 }
 #dbs span{
 	font-size: 0px;
 }
-#dbs span::before {
-    font-size: 16px;
-    position: relative;
-	top: 1px;
+#dbs label{
+	width: 170px;
+	display: inline-block;
+	height: 28px;
+}
+#dbs::before {
+	font-size: 16px;
+	position: absolute;
+	top: 8px;
 	color: #000;
 	content: "dns";
 	font-family: "Material Icons";
+	left: 12px;
 }
 #menu select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    text-indent: 1px;
-    text-overflow: '';
-	width: 78%;
-	position: relative;
-	top: -1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: '';
+	width: 182px;
+	position: absolute;
+	top: 7px;
+	text-align: center;
+	left: 31px;
 }
 #dbs::after{
 	content: "arrow_forward_ios";
 	font-family: "Material Icons";
 	font-size: 15px;
 	color: #000;
-	position: relative;
+	position: absolute;
 	display: inline;
-	top: 1px;
-	left: 8px;
+	top: 8px;
+	right: 12px;
 	opacity: 0.6;
 }
 #tables .structure{
@@ -932,9 +939,6 @@ code {
 input[type="radio"] {
 	filter: invert();
 }
-.icon:hover {
-    background: #000;
-}
 select option {
     background: #221f2e;
 }
@@ -984,7 +988,7 @@ a[href="#import"]:hover{
 	color: #ffffff;
 }
 #menu h1:first-of-type{
-	margin-top: -9px;
+	margin-top: -15px;
 }
 #lang{
 	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -1081,7 +1085,7 @@ a[href="#import"] {
 }
 .layout input[name='auth[server]'], .layout input[name='auth[username]'], .layout input[name='auth[password]'], .layout input[name='auth[db]'] {
 	width: 100%;
-	max-width: 280px;
+	max-width: 298px;
 }
 ul#tables{
 	padding: 9px 12px 20px 6px;
@@ -1089,4 +1093,19 @@ ul#tables{
 ::selection {
 	background: #7962f2;
 	color: #fff;
+}
+#logo{
+	display: none;
+}
+.footer{
+	box-shadow: none;
+}
+.odds tbody tr, .odds tbody tr:nth-child(2n){
+	background: transparent;
+}
+thead{
+  z-index: 1;
+}
+input, textarea, .sqlarea{
+	outline: none !important;
 }
