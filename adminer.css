@@ -133,6 +133,7 @@ a #h1 {
 }
 #tables {
 	overflow-x: hidden !important;
+	overflow-y: scroll !important;
 	margin-bottom: 47px;
 	padding: 9px 12px 0 6px;
 	flex: 1
@@ -1104,8 +1105,21 @@ ul#tables{
 	background: transparent;
 }
 thead{
-  z-index: 1;
+  	z-index: 1;
 }
 input, textarea, .sqlarea{
 	outline: none !important;
+}
+.editor #menu{
+	padding-top: 82px;
+}
+.editor #tables{
+	background: rgb(34, 31, 46);
+}
+.editor #tables a.select{
+	float: initial;
+	width: 100%;
+}
+.editor #menu h1:first-of-type{
+  	margin-top: -27px;
 }
