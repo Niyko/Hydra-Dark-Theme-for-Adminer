@@ -1,10 +1,10 @@
 ![Hydra Dark Theme for Adminer logo](https://i.imgur.com/JpUX5NI.png)
 ## Hydra - Material Design Dark Theme for Adminer
-An Adminer dark mode material design theme inspired by the Adminer material design. [Adminer](https://www.adminer.org/) is one of the best DB-Management tools out there. Install the theme with two little steps, just download the `Adminer.css` file and put the file in the same folder as the `Adminer.php`. This theme also supports on [Adminer editor](https://www.adminer.org/en/editor).
+An Adminer dark mode material design theme inspired by the Adminer material design. [Adminer](https://www.adminer.org/) is one of the best DB-Management tools out there. Install the theme with two little steps, just download the `adminer.css` file and put the file in the same folder as the `adminer.php`. This theme also supports on [Adminer editor](https://www.adminer.org/en/editor).
 
 ### :zap: Usage
 * Get a copy of [Adminer](https://www.adminer.org/)
-* Download the `adminer.css` from [here](https://bit.ly/hydra-theme-for-adminer)
+* Download the `adminer.css` from [here](https://github.com/Niyko/Hydra-Dark-Theme-for-Adminer/releases)
 * Put them both in the same web folder
 
 ### :mag: Preview
